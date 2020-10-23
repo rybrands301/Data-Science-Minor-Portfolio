@@ -1,0 +1,30 @@
+body {
+  background-color: #f7de9b;
+  color: #01040f;
+  margin: 0;
+}
+h1 {
+  text-align: left;
+  font-size:2rem;
+  color: #072dcd;
+}
+h2 {
+  text-align: left;
+  font-size:2rem;
+  color: #072dcd;
+}
+#border{
+  border-left: solid;
+  border-color : #1a21d8;
+}
+a{
+  color: #48b312;
+}
+h3 {
+  text-align: left;
+  font-size:2rem;
+  color: #072dcd;
+}
+p{
+  color: #c62508
+}
