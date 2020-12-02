@@ -1,0 +1,170 @@
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+#top {
+  background-color: #00A896;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: #04415A;
+}
+h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  color: #04415A;
+}
+h3 {
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+h4 {
+  font-size: 2.5rem;
+  text-align: left;
+  color: #04415A;
+}
+h5 {
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+h6 {
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+h7 {
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+h8 {
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+h9 {
+  font-size: 2.5rem;
+  text-align: left;
+  color: #04415A;
+}
+h10 {
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+h11 {
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+}
+h12 {
+  font-size: 2.5rem;
+  text-align: left;
+  color: #04415A;
+}
+h13 {
+  font-size: 2.5rem;
+  text-align: left;
+  color: #04415A;
+}
+/* This is the style formatting for the horzontal button group. I did some external research at W3Schools to learn about this abiity*/
+.btn-group button {
+  background-color: #FFFFFF; /* Green background */
+  color: Black; /* White text */
+  padding: 10px 24px; /* padding */ 
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left:none;
+  cursor: pointer; /* Pointer/hand icon */
+  position:center;
+  display:contents;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  margin:0 auto;
+  text-overflow: ellipsis; 
+  overflow: hidden; 
+  white-space: nowrap;
+   display:inline-block;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+  border-color: #FFFFFF /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #FFFFFF;
+}
+
+
+
+
+
+/* 1. change underlining to none */
+a {
+  color: #00a896;
+  text-decoration: none;
+}
+
+/* 2. add dotted border to a */
+a:hover {
+  border-bottom: 1px dotted;
+}
+
+p {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 1rem;
+  margin-left: 0rem;
+  margin-right: 15rem;
+  margin-bottom: .2rem;
+  margin-top : .2rem;
+}
+
+.redtext {
+  color: #00A896;
+}
+
+/* 3. change color of blockquote bar from #028090 to #00A896*/
+blockquote {
+  margin-left: 5rem;
+  border-left: 1rem solid #00A896;
+}
+
+blockquote p {
+  margin-left: 1rem;
+}
+
+/* 4. Why is this Georgia? Inheritance */
+cite {
+  margin-left: 1rem;
+}
+
+/* 5. Make song title into a link by replacing strong tag with an a */
+/* 6. Explain what is happening with &ldquo;  Also, change to single quotes and experiment with other character entitites. Change prime in quote to apostrophe
+https://dev.w3.org/html5/html-author/charref
+
+https://www.typewolf.com/cheatsheet
+
+em dash $mdash;
+
+*/
+/* 7. open link in new tab */
